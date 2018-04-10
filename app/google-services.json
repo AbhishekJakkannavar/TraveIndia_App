@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "902948522460",
+    "firebase_url": "https://traveindia-e6aa7.firebaseio.com",
+    "project_id": "traveindia-e6aa7",
+    "storage_bucket": "traveindia-e6aa7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902948522460:android:d4ea467e061a04bc",
+        "android_client_info": {
+          "package_name": "travelindia.infinity.com.traveindia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902948522460-li3rh8gegfkha8tsk6lb50f8pelhqkf9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "travelindia.infinity.com.traveindia",
+            "certificate_hash": "81447907cc5ede7d93ff6170f2d53d3adbcc5a35"
+          }
+        },
+        {
+          "client_id": "902948522460-ursmlp2u1ser2u7k4jn8c375bpco6622.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "travelindia.infinity.com.traveindia",
+            "certificate_hash": "5191d805ef47be31bb1a11f7c5d5715ea7493acd"
+          }
+        },
+        {
+          "client_id": "902948522460-ujr2ebbe9hub9vlbu3kvsiguppjha6ao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy_tRfGfOT6-oDYLXZZGq88T6xodrcJnM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902948522460-ujr2ebbe9hub9vlbu3kvsiguppjha6ao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
