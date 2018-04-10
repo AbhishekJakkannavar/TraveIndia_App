@@ -49,6 +49,10 @@ public class BagalkotActivity extends AppCompatActivity {
                 viewHolder.setTitle(model.getTitle());
                 viewHolder.setDesc(model.getDescription());
                 viewHolder.setImage(getApplicationContext(), model.getImage());
+                viewHolder.setHistory(model.getHistory());
+               viewHolder.setSpeciality(model.getSpeciality());
+                viewHolder.setTime(model.getTime());
+                viewHolder.setFees(model.getFees());
 
 
             }
@@ -83,6 +87,31 @@ public class BagalkotActivity extends AppCompatActivity {
             ImageView post_image = mView.findViewById(R.id.post_image);
             Picasso.with(ctx).load(image).into(post_image);
 
+        }
+
+        public void setHistory(String history) {
+
+            TextView post_history = mView.findViewById(R.id.post_histoy);
+            post_history.setText(history);
+        }
+
+
+        public void setSpeciality(String speciality) {
+
+            TextView post_speciality = mView.findViewById(R.id.post_specality);
+            post_speciality.setText(speciality);
+        }
+
+        public void setTime(String time) {
+
+            TextView post_time = mView.findViewById(R.id.post_time);
+            post_time.setText(time);
+        }
+
+        public void setFees(String fees) {
+
+            TextView post_fees = mView.findViewById(R.id.post_fees);
+            post_fees.setText(fees);
         }
 
     }
